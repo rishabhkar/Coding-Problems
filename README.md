@@ -44,45 +44,45 @@ Each difficulty contains reusable topic folders such as:
 
 - arrays
 - strings
-- linked-list
+- linked_list
 - stack
 - queue
 - deque
-- hash-map
-- hash-set
+- hash_map
+- hash_set
 - trees
-- binary-tree
-- binary-search-tree
+- binary_tree
+- binary_search_tree
 - heap
-- priority-queue
+- priority_queue
 - graph
 - trie
 - recursion
 - backtracking
-- dynamic-programming
+- dynamic_programming
 - greedy
-- sliding-window
-- two-pointers
-- binary-search
+- sliding_window
+- two_pointers
+- binary_search
 - sorting
 - matrix
-- bit-manipulation
+- bit_manipulation
 - math
-- prefix-sum
-- union-find
-- monotonic-stack
-- monotonic-queue
-- linked-hash-map
+- prefix_sum
+- union_find
+- monotonic_stack
+- monotonic_queue
+- linked_hash_map
 - design
 - implementation
 - simulation
 - intervals
 - geometry
-- number-theory
-- segment-tree
-- fenwick-tree
-- topological-sort
-- shortest-path
+- number_theory
+- segment_tree
+- fenwick_tree
+- topological_sort
+- shortest_path
 - bfs
 - dfs
 - uncategorized
@@ -92,14 +92,20 @@ Each difficulty contains reusable topic folders such as:
 Later, each problem should live inside its own folder at the topic level using this naming style:
 
 ```text
-problem-number-problem-name/
+problem_number_problem_name/
 ```
 
 Examples:
 
-- `1-two-sum`
-- `206-reverse-linked-list`
-- `102-binary-tree-level-order-traversal`
+- `1_two_sum`
+- `206_reverse_linked_list`
+- `102_binary_tree_level_order_traversal`
+
+Each Java problem folder should stay self-contained and currently follow this lightweight layout:
+
+- `README.md`
+- one Java class for the problem logic
+- one Java test class with edge-case coverage
 
 A future problem folder may contain:
 
@@ -117,4 +123,3 @@ A future problem folder may contain:
 ## Note about empty folders in Git
 
 Git does not track empty directories by itself. To preserve this directory-only structure in the remote repository, placeholder `.gitkeep` files are used in empty folders where needed.
-
