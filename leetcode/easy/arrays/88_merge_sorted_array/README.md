@@ -3,41 +3,38 @@
 ## Metadata
 - Platform: LeetCode
 - Difficulty: Easy
-- Topic: Arrays
-- Bucket: Basic
-- Folder: `88_merge_sorted_array`
+- Primary Topic: Arrays
+- Folder Path: `leetcode/easy/arrays/88_merge_sorted_array`
+- Folder Name: `88_merge_sorted_array`
 - Official Link: https://leetcode.com/problems/merge-sorted-array/
 
-## Problem Description
-Two sorted arrays are provided, but only the first one has enough trailing space to hold all values. Merge the second sorted array into the first array in non-decreasing order.
+## Problem Overview
+Merge nums2 into nums1 in non-decreasing order using the space already reserved in nums1.
 
-## Input / Output Understanding
-- Input: Array `nums1` has length `m + n`, where its first `m` values are valid; `nums2` has `n` sorted values.
-- Output: Modify `nums1` in place so it contains the full sorted merge of both input ranges.
+## Java Starter Signature
+```java
+public void merge(int[] nums1, int m, int[] nums2, int n)
+```
 
-## Worked Examples
-### Example 1
-- Input: `nums1 = [1,2,3,0,0,0], m = 3, nums2 = [2,5,6], n = 3`
-- Output: `[1,2,2,3,5,6]` stored inside `nums1`
-- Why: The trailing zeroes are just placeholders for the incoming merged values.
 
-### Example 2
-- Input: `nums1 = [0], m = 0, nums2 = [1], n = 1`
-- Output: `[1]`
-- Why: When `nums1` starts with no real values, it simply takes all of `nums2`.
+## Suggested Test Cases
+1. `nums1 = [1,2,3,0,0,0], m = 3, nums2 = [2,5,6], n = 3 -> [1,2,2,3,5,6]`
+2. `nums1 = [1], m = 1, nums2 = [], n = 0 -> [1]`
+3. `nums1 = [0], m = 0, nums2 = [1], n = 1 -> [1]`
 
-## Edge Cases Worth Testing
-- Either input range may be empty.
-- Equal values must all be preserved.
-- The second array may belong entirely before or after the first range.
-- Negative values should merge correctly too.
+## What To Watch For
+- Check small lengths like 0, 1, and 2 before assuming a longer scan is possible.
+- Be careful with in-place updates so you do not overwrite values you still need to read.
+- Watch for off-by-one errors when returning a new length or slicing a kept prefix.
 
-## Implementation Notes
-- Merging from the end avoids overwriting unread values in `nums1`.
-- This is a standard two-pointer pattern on sorted data.
-- The placeholders in `nums1` are not part of the sorted input region.
+## Starter File Status
+This folder is prepared as a starter workspace for solving the problem yourself.
+
+- `MergeSortedArray.java` contains the correct class name and Java method signature.
+- `MergeSortedArrayTest.java` contains scaffold test-case notes that you can convert into real assertions after implementing the solution.
+- `README.md` gives you a quick revision-friendly summary before you start coding.
 
 ## Folder Contents
-- `MergeSortedArray.java` — the main logic class
-- `MergeSortedArrayTest.java` — edge-focused regression tests
-- `README.md` — problem notes and revision-friendly context
+- `MergeSortedArray.java` - blank Java starter solution
+- `MergeSortedArrayTest.java` - starter test scaffold
+- `README.md` - detailed problem notes and folder guide

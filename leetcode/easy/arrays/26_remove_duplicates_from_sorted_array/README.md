@@ -1,133 +1,40 @@
 # 26. Remove Duplicates from Sorted Array
 
-## Difficulty
+## Metadata
+- Platform: LeetCode
+- Difficulty: Easy
+- Primary Topic: Arrays
+- Folder Path: `leetcode/easy/arrays/26_remove_duplicates_from_sorted_array`
+- Folder Name: `26_remove_duplicates_from_sorted_array`
+- Official Link: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 
-## Topics
-- Array
-- Two Pointers
+## Problem Overview
+Remove repeated values from the sorted array in place and return the count of unique values kept at the front.
 
-## Problem Statement
-
-Given an integer array `nums` sorted in non-decreasing order, remove the duplicates **in-place** such that each unique element appears only once.
-
-The relative order of the elements must remain the same.
-
-Let the number of unique elements be `k`.
-
-Your task is to:
-
-- modify the array `nums` in-place so that the first `k` elements contain the unique elements in sorted order
-- return `k`
-
-The elements beyond index `k - 1` do not matter.
-
----
-
-## Function Signature
-```text
-int removeDuplicates(int[] nums)
+## Java Starter Signature
+```java
+public int removeDuplicates(int[] nums)
 ```
 
----
 
-## Expected Behavior
+## Suggested Test Cases
+1. `nums = [1,1,2] -> k = 2, prefix [1,2]`
+2. `nums = [0,0,1,1,1,2,2,3,3,4] -> k = 5, prefix [0,1,2,3,4]`
+3. `nums = [1,1,1,1] -> k = 1, prefix [1]`
 
-After calling the function:
+## What To Watch For
+- Check small lengths like 0, 1, and 2 before assuming a longer scan is possible.
+- Be careful with in-place updates so you do not overwrite values you still need to read.
+- Watch for off-by-one errors when returning a new length or slicing a kept prefix.
 
-* the returned value should be `k`
-* the first `k` elements of `nums` should contain the unique values in sorted order
+## Starter File Status
+This folder is prepared as a starter workspace for solving the problem yourself.
 
----
+- `RemoveDuplicatesFromSortedArray.java` contains the correct class name and Java method signature.
+- `RemoveDuplicatesFromSortedArrayTest.java` contains scaffold test-case notes that you can convert into real assertions after implementing the solution.
+- `README.md` gives you a quick revision-friendly summary before you start coding.
 
-## Custom Judge
-
-The solution will be tested using logic similar to the following:
-
-```text
-int[] nums = { /* input */ };          // Input array
-int[] expectedNums = { /* expected */ };  // Expected answer
-
-int k = removeDuplicates(nums);
-
-assert k == expectedNums.length;
-for (int i = 0; i < k; i++) {
-    assert nums[i] == expectedNums[i];
-}
-```
-
-If all assertions pass, the solution is accepted.
-
----
-
-## Examples
-
-### Example 1
-
-**Input**
-
-```text
-nums = [1,1,2]
-```
-
-**Output**
-
-```text
-2, nums = [1,2,_]
-```
-
-**Explanation**
-
-Your function should return `k = 2`, with the first two elements of `nums` being `1` and `2`.
-
-It does not matter what values remain after index `k - 1`.
-
----
-
-### Example 2
-
-**Input**
-
-```text
-nums = [0,0,1,1,1,2,2,3,3,4]
-```
-
-**Output**
-
-```text
-5, nums = [0,1,2,3,4,_,_,_,_,_]
-```
-
-**Explanation**
-
-Your function should return `k = 5`, with the first five elements of `nums` being `0`, `1`, `2`, `3`, and `4`.
-
-It does not matter what values remain after index `k - 1`.
-
----
-
-## Constraints
-
-```text
-1 <= nums.length <= 3 * 10^4
--100 <= nums[i] <= 100
-nums is sorted in non-decreasing order
-```
-
----
-
-## Notes
-
-* The array must be modified **in-place**
-* You must use only **O(1)** extra space
-* Since the array is already sorted, duplicates will always appear next to each other
-
----
-
-## Source
-
-Copied from: [Remove Duplicates from Sorted Array - LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
-
-
-If you want, I can also 
-
-give you a cleaner **DSA repo-style README template** with sections like **Approach, Intuition, Dry Run, Code, and Complexity**.
+## Folder Contents
+- `RemoveDuplicatesFromSortedArray.java` - blank Java starter solution
+- `RemoveDuplicatesFromSortedArrayTest.java` - starter test scaffold
+- `README.md` - detailed problem notes and folder guide

@@ -3,41 +3,38 @@
 ## Metadata
 - Platform: LeetCode
 - Difficulty: Easy
-- Topic: Arrays
-- Bucket: Basic
-- Folder: `283_move_zeroes`
+- Primary Topic: Arrays
+- Folder Path: `leetcode/easy/arrays/283_move_zeroes`
+- Folder Name: `283_move_zeroes`
 - Official Link: https://leetcode.com/problems/move-zeroes/
 
-## Problem Description
-Rearrange the array in place so that every non-zero value keeps its relative order while all zeroes are moved to the end.
+## Problem Overview
+Move every zero to the end while keeping the relative order of non-zero values.
 
-## Input / Output Understanding
-- Input: An integer array that may contain zero, positive, and negative values.
-- Output: Modify the same array so all non-zero values appear first in their original order, followed by all zeroes.
+## Java Starter Signature
+```java
+public void moveZeroes(int[] nums)
+```
 
-## Worked Examples
-### Example 1
-- Input: `nums = [0,1,0,3,12]`
-- Output: `[1,3,12,0,0]`
-- Why: The non-zero values stay in the same order while both zeroes slide to the back.
 
-### Example 2
-- Input: `nums = [0]`
-- Output: `[0]`
-- Why: A one-element array containing zero is already in valid form.
+## Suggested Test Cases
+1. `nums = [0,1,0,3,12] -> [1,3,12,0,0]`
+2. `nums = [0] -> [0]`
+3. `nums = [4,0,5,0,0,3,0,1] -> [4,5,3,1,0,0,0,0]`
 
-## Edge Cases Worth Testing
-- Arrays with no zeroes should stay unchanged.
-- Arrays made entirely of zeroes should also stay unchanged.
-- Negative values count as non-zero values and must keep their order.
-- Zeroes may appear at the front, middle, or end.
+## What To Watch For
+- Check small lengths like 0, 1, and 2 before assuming a longer scan is possible.
+- Be careful with in-place updates so you do not overwrite values you still need to read.
+- Watch for off-by-one errors when returning a new length or slicing a kept prefix.
 
-## Implementation Notes
-- A write pointer can compact non-zero values first, then fill the remainder with zeroes.
-- The problem is in-place, so avoid building a second array for this basic version.
-- Stable ordering of non-zero values is part of the requirement.
+## Starter File Status
+This folder is prepared as a starter workspace for solving the problem yourself.
+
+- `MoveZeroes.java` contains the correct class name and Java method signature.
+- `MoveZeroesTest.java` contains scaffold test-case notes that you can convert into real assertions after implementing the solution.
+- `README.md` gives you a quick revision-friendly summary before you start coding.
 
 ## Folder Contents
-- `MoveZeroes.java` — the main logic class
-- `MoveZeroesTest.java` — edge-focused regression tests
-- `README.md` — problem notes and revision-friendly context
+- `MoveZeroes.java` - blank Java starter solution
+- `MoveZeroesTest.java` - starter test scaffold
+- `README.md` - detailed problem notes and folder guide

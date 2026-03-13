@@ -3,41 +3,38 @@
 ## Metadata
 - Platform: LeetCode
 - Difficulty: Easy
-- Topic: Arrays
-- Bucket: Basic
-- Folder: `1920_build_array_from_permutation`
+- Primary Topic: Arrays
+- Folder Path: `leetcode/easy/arrays/1920_build_array_from_permutation`
+- Folder Name: `1920_build_array_from_permutation`
 - Official Link: https://leetcode.com/problems/build-array-from-permutation/
 
-## Problem Description
-The input array is a permutation of the numbers `0` through `n - 1`. Build a new array `ans` where each position `i` contains `nums[nums[i]]`.
+## Problem Overview
+Build a new array where each position uses nums[nums[i]].
 
-## Input / Output Understanding
-- Input: A permutation array `nums`, meaning every index from `0` to `n - 1` appears exactly once.
-- Output: Return a new array `ans` defined by the rule `ans[i] = nums[nums[i]]`.
+## Java Starter Signature
+```java
+public int[] buildArray(int[] nums)
+```
 
-## Worked Examples
-### Example 1
-- Input: `nums = [0,2,1,5,3,4]`
-- Output: `[0,1,2,4,5,3]`
-- Why: Each answer slot is filled by using the current value as the next lookup index.
 
-### Example 2
-- Input: `nums = [5,0,1,2,3,4]`
-- Output: `[4,5,0,1,2,3]`
-- Why: Because the array is a permutation, every nested lookup is valid.
+## Suggested Test Cases
+1. `nums = [0,2,1,5,3,4] -> [0,1,2,4,5,3]`
+2. `nums = [5,0,1,2,3,4] -> [4,5,0,1,2,3]`
+3. `nums = [0,1,2] -> [0,1,2]`
 
-## Edge Cases Worth Testing
-- A one-element permutation should map back to itself.
-- Cycles of different lengths should still be handled correctly.
-- The answer can reuse indices many times, but the input is always valid.
-- A reverse permutation is still fully legal input.
+## What To Watch For
+- Check small lengths like 0, 1, and 2 before assuming a longer scan is possible.
+- Be careful with in-place updates so you do not overwrite values you still need to read.
+- Watch for off-by-one errors when returning a new length or slicing a kept prefix.
 
-## Implementation Notes
-- This problem is mainly about careful indexing.
-- A straightforward extra-array solution is perfect for the basic bucket.
-- It builds confidence with nested array access patterns.
+## Starter File Status
+This folder is prepared as a starter workspace for solving the problem yourself.
+
+- `BuildArrayFromPermutation.java` contains the correct class name and Java method signature.
+- `BuildArrayFromPermutationTest.java` contains scaffold test-case notes that you can convert into real assertions after implementing the solution.
+- `README.md` gives you a quick revision-friendly summary before you start coding.
 
 ## Folder Contents
-- `BuildArrayFromPermutation.java` — the main logic class
-- `BuildArrayFromPermutationTest.java` — edge-focused regression tests
-- `README.md` — problem notes and revision-friendly context
+- `BuildArrayFromPermutation.java` - blank Java starter solution
+- `BuildArrayFromPermutationTest.java` - starter test scaffold
+- `README.md` - detailed problem notes and folder guide

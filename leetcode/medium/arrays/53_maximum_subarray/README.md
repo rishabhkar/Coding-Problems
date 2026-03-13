@@ -3,41 +3,38 @@
 ## Metadata
 - Platform: LeetCode
 - Difficulty: Medium
-- Topic: Arrays
-- Bucket: Basic
-- Folder: `53_maximum_subarray`
+- Primary Topic: Arrays
+- Folder Path: `leetcode/medium/arrays/53_maximum_subarray`
+- Folder Name: `53_maximum_subarray`
 - Official Link: https://leetcode.com/problems/maximum-subarray/
 
-## Problem Description
-Given an integer array, find the contiguous subarray with the largest possible sum and return that sum. The chosen subarray must contain at least one element.
+## Problem Overview
+Find the contiguous subarray with the largest possible sum.
 
-## Input / Output Understanding
-- Input: An integer array that can contain positive values, negative values, and zero.
-- Output: Return the maximum sum obtainable from any non-empty contiguous slice of the array.
+## Java Starter Signature
+```java
+public int maxSubArray(int[] nums)
+```
 
-## Worked Examples
-### Example 1
-- Input: `nums = [-2,1,-3,4,-1,2,1,-5,4]`
-- Output: `6`
-- Why: The best contiguous block is `[4,-1,2,1]`, which sums to `6`.
 
-### Example 2
-- Input: `nums = [5,4,-1,7,8]`
-- Output: `23`
-- Why: The whole array is the best subarray in this case.
+## Suggested Test Cases
+1. `nums = [-2,1,-3,4,-1,2,1,-5,4] -> 6`
+2. `nums = [1] -> 1`
+3. `nums = [5,4,-1,7,8] -> 23`
 
-## Edge Cases Worth Testing
-- If all numbers are negative, the answer is the least negative single element.
-- A one-element array must return that element.
-- Large positive streaks after an early dip should still be considered.
-- Zero can itself be the best answer when every other option is negative.
+## What To Watch For
+- Check small lengths like 0, 1, and 2 before assuming a longer scan is possible.
+- Be careful with in-place updates so you do not overwrite values you still need to read.
+- Watch for off-by-one errors when returning a new length or slicing a kept prefix.
 
-## Implementation Notes
-- Kadane’s algorithm keeps the best running subarray ending at each position.
-- This is foundational for later DP and prefix-style reasoning.
-- The problem is about contiguity, not arbitrary subsets.
+## Starter File Status
+This folder is prepared as a starter workspace for solving the problem yourself.
+
+- `MaximumSubarray.java` contains the correct class name and Java method signature.
+- `MaximumSubarrayTest.java` contains scaffold test-case notes that you can convert into real assertions after implementing the solution.
+- `README.md` gives you a quick revision-friendly summary before you start coding.
 
 ## Folder Contents
-- `MaximumSubarray.java` — the main logic class
-- `MaximumSubarrayTest.java` — edge-focused regression tests
-- `README.md` — problem notes and revision-friendly context
+- `MaximumSubarray.java` - blank Java starter solution
+- `MaximumSubarrayTest.java` - starter test scaffold
+- `README.md` - detailed problem notes and folder guide

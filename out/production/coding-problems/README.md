@@ -1,43 +1,40 @@
-# 53. Maximum Subarray
+# 75. Sort Colors
 
 ## Metadata
 - Platform: LeetCode
 - Difficulty: Medium
-- Topic: Arrays
-- Bucket: Basic
-- Folder: `53_maximum_subarray`
-- Official Link: https://leetcode.com/problems/maximum-subarray/
+- Primary Topic: Two Pointers
+- Folder Path: `leetcode/medium/two_pointers/75_sort_colors`
+- Folder Name: `75_sort_colors`
+- Official Link: https://leetcode.com/problems/sort-colors/
 
-## Problem Description
-Given an integer array, find the contiguous subarray with the largest possible sum and return that sum. The chosen subarray must contain at least one element.
+## Problem Overview
+Sort the array of 0s, 1s, and 2s in place without using library sort.
 
-## Input / Output Understanding
-- Input: An integer array that can contain positive values, negative values, and zero.
-- Output: Return the maximum sum obtainable from any non-empty contiguous slice of the array.
+## Java Starter Signature
+```java
+public void sortColors(int[] nums)
+```
 
-## Worked Examples
-### Example 1
-- Input: `nums = [-2,1,-3,4,-1,2,1,-5,4]`
-- Output: `6`
-- Why: The best contiguous block is `[4,-1,2,1]`, which sums to `6`.
 
-### Example 2
-- Input: `nums = [5,4,-1,7,8]`
-- Output: `23`
-- Why: The whole array is the best subarray in this case.
+## Suggested Test Cases
+1. `nums = [2,0,2,1,1,0] -> [0,0,1,1,2,2]`
+2. `nums = [2,0,1] -> [0,1,2]`
+3. `nums = [0] -> [0]`
 
-## Edge Cases Worth Testing
-- If all numbers are negative, the answer is the least negative single element.
-- A one-element array must return that element.
-- Large positive streaks after an early dip should still be considered.
-- Zero can itself be the best answer when every other option is negative.
+## What To Watch For
+- Move the pointer that can actually improve the answer instead of advancing both blindly.
+- Sorted input often enables duplicate skipping and targeted pointer motion.
+- Test very small inputs because pointer crossings are a common source of bugs.
 
-## Implementation Notes
-- Kadane’s algorithm keeps the best running subarray ending at each position.
-- This is foundational for later DP and prefix-style reasoning.
-- The problem is about contiguity, not arbitrary subsets.
+## Starter File Status
+This folder is prepared as a starter workspace for solving the problem yourself.
+
+- `SortColors.java` contains the correct class name and Java method signature.
+- `SortColorsTest.java` contains scaffold test-case notes that you can convert into real assertions after implementing the solution.
+- `README.md` gives you a quick revision-friendly summary before you start coding.
 
 ## Folder Contents
-- `MaximumSubarray.java` — the main logic class
-- `MaximumSubarrayTest.java` — edge-focused regression tests
-- `README.md` — problem notes and revision-friendly context
+- `SortColors.java` - blank Java starter solution
+- `SortColorsTest.java` - starter test scaffold
+- `README.md` - detailed problem notes and folder guide
