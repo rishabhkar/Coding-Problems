@@ -1,125 +1,112 @@
 # Coding Problems
 
-A long-term coding practice repository for organizing problem solutions across multiple platforms in a clean, scalable, and interview-prep-friendly structure.
+A long-term coding practice repository for keeping each problem in a self-contained folder with a short guide, starter code, and starter tests.
 
-## Repository goals
+## Current repository snapshot
+- Total numbered problem folders currently stored: **107**
+- LeetCode problem folders currently stored: **107**
+- Requested classic LeetCode starter set prepared in this pass: **100** problems
+- Platforms present in the repository tree: **9**
+- Generated output under `out/` is ignored when counting source content
 
-- keep problems grouped by **platform** first
-- normalize difficulty across platforms
-- organize each difficulty by reusable **topic**
-- keep each future problem self-contained in its own folder
+## Platform status
+- `leetcode`: 107 stored problem folders
 
-## Structure
+| Platform | Stored problem folders |
+| --- | ---: |
+| atcoder | 0 |
+| codechef | 0 |
+| codeforces | 0 |
+| cses | 0 |
+| geeksforgeeks | 0 |
+| hackerrank | 0 |
+| interviewbit | 0 |
+| leetcode | 107 |
+| spoj | 0 |
 
-```text
-coding-problems/
-├─ _templates/
-├─ _notes/
-├─ _unsorted/
-├─ leetcode/
-├─ hackerrank/
-├─ spoj/
-├─ codeforces/
-├─ codechef/
-├─ geeksforgeeks/
-├─ interviewbit/
-├─ atcoder/
-└─ cses/
-```
-
-Each platform follows this pattern:
+## Active structure in this repository
+Every platform currently uses the same top-level difficulty buckets that already exist in the tree:
 
 ```text
 platform/
-├─ basic/
 ├─ easy/
 ├─ medium/
 ├─ hard/
-├─ advanced/
-├─ contest/
-└─ uncategorized/
+└─ advanced/
 ```
 
-Each difficulty contains reusable topic folders such as:
+Inside each difficulty folder, reusable topic folders are used to keep problems discoverable and consistent.
 
-- arrays
-- strings
-- linked_list
-- stack
-- queue
-- deque
-- hash_map
-- hash_set
-- trees
-- binary_tree
-- binary_search_tree
-- heap
-- priority_queue
-- graph
-- trie
-- recursion
-- backtracking
-- dynamic_programming
-- greedy
-- sliding_window
-- two_pointers
-- binary_search
-- sorting
-- matrix
-- bit_manipulation
-- math
-- prefix_sum
-- union_find
-- monotonic_stack
-- monotonic_queue
-- linked_hash_map
-- design
-- implementation
-- simulation
-- intervals
-- geometry
-- number_theory
-- segment_tree
-- fenwick_tree
-- topological_sort
-- shortest_path
-- bfs
-- dfs
-- uncategorized
+## Current topic folders available under LeetCode difficulty buckets
+- `arrays`
+- `backtracking`
+- `bfs`
+- `binary_search`
+- `binary_search_tree`
+- `binary_tree`
+- `bit_manipulation`
+- `deque`
+- `design`
+- `dfs`
+- `dynamic_programming`
+- `fenwick_tree`
+- `geometry`
+- `graph`
+- `greedy`
+- `hash_map`
+- `hash_set`
+- `heap`
+- `implementation`
+- `intervals`
+- `linked_hash_map`
+- `linked_list`
+- `math`
+- `matrix`
+- `monotonic_queue`
+- `monotonic_stack`
+- `number_theory`
+- `prefix_sum`
+- `priority_queue`
+- `queue`
+- `recursion`
+- `segment_tree`
+- `shortest_path`
+- `simulation`
+- `sliding_window`
+- `sorting`
+- `stack`
+- `strings`
+- `topological_sort`
+- `trees`
+- `trie`
+- `two_pointers`
+- `uncategorized`
+- `union_find`
 
-## Future problem folder pattern
-
-Later, each problem should live inside its own folder at the topic level using this naming style:
+## Problem folder pattern
+Each stored problem folder follows this naming convention:
 
 ```text
-problem_number_problem_name/
+problem_number_problem_slug/
 ```
 
 Examples:
-
 - `1_two_sum`
-- `206_reverse_linked_list`
-- `102_binary_tree_level_order_traversal`
+- `26_remove_duplicates_from_sorted_array`
+- `100_same_tree`
 
-Each Java problem folder should stay self-contained and currently follow this lightweight layout:
+## What each Java problem folder contains
+Each Java-focused folder is designed to stand on its own and usually contains:
 
-- `README.md`
-- one Java class for the problem logic
-- one Java test class with edge-case coverage
+- `README.md` - a detailed, easy-to-read summary of the problem
+- one Java starter class with the main method signature to implement
+- one Java starter test file with suggested test cases or smoke-test notes
 
-A future problem folder may contain:
+## LeetCode index
+Use `leetcode/README.md` for the detailed master index that lists:
 
-- `README.md`
-- solution files
-- notes
-- test cases
+- the exact folder path for every stored LeetCode problem
+- its difficulty
+- its primary topic category
+- its problem number and title
 
-## Utility folders
-
-- `_templates/` → reusable starter material for future problem folders
-- `_notes/` → general study notes, patterns, and revision material
-- `_unsorted/` → temporary holding area before a problem is fully categorized
-
-## Note about empty folders in Git
-
-Git does not track empty directories by itself. To preserve this directory-only structure in the remote repository, placeholder `.gitkeep` files are used in empty folders where needed.

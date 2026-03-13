@@ -3,41 +3,38 @@
 ## Metadata
 - Platform: LeetCode
 - Difficulty: Easy
-- Topic: Arrays
-- Bucket: Basic
-- Folder: `724_find_pivot_index`
+- Primary Topic: Arrays
+- Folder Path: `leetcode/easy/arrays/724_find_pivot_index`
+- Folder Name: `724_find_pivot_index`
 - Official Link: https://leetcode.com/problems/find-pivot-index/
 
-## Problem Description
-Find the leftmost index where the sum of values on the left equals the sum of values on the right. If no such index exists, return `-1`.
+## Problem Overview
+Return the index where the sum on the left equals the sum on the right, or -1 if none exists.
 
-## Input / Output Understanding
-- Input: An integer array that can include positive numbers, negative numbers, and zero.
-- Output: Return the first valid pivot index, or `-1` if the array has no pivot.
+## Java Starter Signature
+```java
+public int pivotIndex(int[] nums)
+```
 
-## Worked Examples
-### Example 1
-- Input: `nums = [1,7,3,6,5,6]`
-- Output: `3`
-- Why: The left sum `1 + 7 + 3` equals the right sum `5 + 6`.
 
-### Example 2
-- Input: `nums = [1,2,3]`
-- Output: `-1`
-- Why: No position balances the array.
+## Suggested Test Cases
+1. `nums = [1,7,3,6,5,6] -> 3`
+2. `nums = [1,2,3] -> -1`
+3. `nums = [2,1,-1] -> 0`
 
-## Edge Cases Worth Testing
-- A one-element array has pivot index `0`.
-- If multiple pivots exist, return the leftmost one.
-- Negative numbers can still balance correctly.
-- A pivot may sit at the beginning or the end because an empty side sums to zero.
+## What To Watch For
+- Check small lengths like 0, 1, and 2 before assuming a longer scan is possible.
+- Be careful with in-place updates so you do not overwrite values you still need to read.
+- Watch for off-by-one errors when returning a new length or slicing a kept prefix.
 
-## Implementation Notes
-- Keep the total sum and a running left sum while scanning once.
-- For index `i`, the right sum is `total - leftSum - nums[i]`.
-- This is a beginner-friendly use of prefix-sum thinking.
+## Starter File Status
+This folder is prepared as a starter workspace for solving the problem yourself.
+
+- `FindPivotIndex.java` contains the correct class name and Java method signature.
+- `FindPivotIndexTest.java` contains scaffold test-case notes that you can convert into real assertions after implementing the solution.
+- `README.md` gives you a quick revision-friendly summary before you start coding.
 
 ## Folder Contents
-- `FindPivotIndex.java` — the main logic class
-- `FindPivotIndexTest.java` — edge-focused regression tests
-- `README.md` — problem notes and revision-friendly context
+- `FindPivotIndex.java` - blank Java starter solution
+- `FindPivotIndexTest.java` - starter test scaffold
+- `README.md` - detailed problem notes and folder guide

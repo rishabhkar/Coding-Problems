@@ -3,41 +3,38 @@
 ## Metadata
 - Platform: LeetCode
 - Difficulty: Easy
-- Topic: Arrays
-- Bucket: Basic
-- Folder: `217_contains_duplicate`
+- Primary Topic: Arrays
+- Folder Path: `leetcode/easy/arrays/217_contains_duplicate`
+- Folder Name: `217_contains_duplicate`
 - Official Link: https://leetcode.com/problems/contains-duplicate/
 
-## Problem Description
-Decide whether any value appears at least twice in the array. Return `true` as soon as a duplicate exists; otherwise return `false`.
+## Problem Overview
+Return whether any value appears at least twice in the array.
 
-## Input / Output Understanding
-- Input: An integer array that may be empty, unique, or contain repeated values.
-- Output: Return `true` if one or more numbers appear more than once; otherwise return `false`.
+## Java Starter Signature
+```java
+public boolean containsDuplicate(int[] nums)
+```
 
-## Worked Examples
-### Example 1
-- Input: `nums = [1,2,3,1]`
-- Output: `true`
-- Why: The value `1` appears twice.
 
-### Example 2
-- Input: `nums = [1,2,3,4]`
-- Output: `false`
-- Why: Every value is distinct, so there is no duplicate.
+## Suggested Test Cases
+1. `nums = [1,2,3,1] -> true`
+2. `nums = [1,2,3,4] -> false`
+3. `nums = [1,1,1,3,3,4,3,2,4,2] -> true`
 
-## Edge Cases Worth Testing
-- Empty and one-element arrays must return `false`.
-- Duplicates may be adjacent or far apart.
-- Negative values and very large integers still count normally.
-- All values the same should return `true` immediately.
+## What To Watch For
+- Check small lengths like 0, 1, and 2 before assuming a longer scan is possible.
+- Be careful with in-place updates so you do not overwrite values you still need to read.
+- Watch for off-by-one errors when returning a new length or slicing a kept prefix.
 
-## Implementation Notes
-- A hash set is the clearest basic solution.
-- If a number is already in the set, you can stop early.
-- This problem is good practice for frequency checks and membership testing.
+## Starter File Status
+This folder is prepared as a starter workspace for solving the problem yourself.
+
+- `ContainsDuplicate.java` contains the correct class name and Java method signature.
+- `ContainsDuplicateTest.java` contains scaffold test-case notes that you can convert into real assertions after implementing the solution.
+- `README.md` gives you a quick revision-friendly summary before you start coding.
 
 ## Folder Contents
-- `ContainsDuplicate.java` — the main logic class
-- `ContainsDuplicateTest.java` — edge-focused regression tests
-- `README.md` — problem notes and revision-friendly context
+- `ContainsDuplicate.java` - blank Java starter solution
+- `ContainsDuplicateTest.java` - starter test scaffold
+- `README.md` - detailed problem notes and folder guide
