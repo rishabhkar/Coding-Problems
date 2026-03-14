@@ -3,11 +3,9 @@
 A long-term coding practice repository for keeping each problem in a self-contained folder with a short guide, starter code, and starter tests.
 
 ## Current repository snapshot
-- Total numbered problem folders currently stored: **107**
-- LeetCode problem folders currently stored: **107**
-- Requested classic LeetCode starter set prepared in this pass: **100** problems
+- Total problem folders currently stored: **107** (all currently under `leetcode/`)
 - Platforms present in the repository tree: **9**
-- Generated output under `out/` is ignored when counting source content
+- Build / IDE output folders (for example `out/`) are ignored and should not be committed
 
 ## Platform status
 - GitHub only stores files, not empty folders. This repo includes minimal `.gitkeep` placeholder files so the full platform folder structure is visible on GitHub.
