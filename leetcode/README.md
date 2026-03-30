@@ -4,8 +4,8 @@ This index shows every LeetCode problem folder currently stored in the repositor
 
 ## Snapshot
 - Total LeetCode problem folders: **368**
-- Solved problems: **3**
-- Unsolved problems: **365**
+- Solved problems: **17**
+- Unsolved problems: **351**
 
 ## Difficulty breakdown
 
@@ -58,30 +58,30 @@ This index shows every LeetCode problem folder currently stored in the repositor
 | 9 | Palindrome Number | Easy | Math | leetcode/easy/math/9_palindrome_number | ⬜ |
 | 10 | Regular Expression Matching | Hard | Dynamic Programming | leetcode/hard/dynamic_programming/10_regular_expression_matching | ⬜ |
 | 11 | Container With Most Water | Medium | Two Pointers | leetcode/medium/two_pointers/11_container_with_most_water | ⬜ |
-| 12 | Integer To Roman | Medium | Strings | leetcode/medium/strings/12_integer_to_roman | ⬜ |
-| 13 | Roman To Integer | Easy | Strings | leetcode/easy/strings/13_roman_to_integer | ⬜ |
-| 14 | Longest Common Prefix | Easy | Strings | leetcode/easy/strings/14_longest_common_prefix | ⬜ |
+| 12 | Integer To Roman | Medium | Strings | leetcode/medium/strings/12_integer_to_roman | ✅ |
+| 13 | Roman To Integer | Easy | Strings | leetcode/easy/strings/13_roman_to_integer | ✅ |
+| 14 | Longest Common Prefix | Easy | Strings | leetcode/easy/strings/14_longest_common_prefix | ✅ |
 | 15 | 3sum | Medium | Two Pointers | leetcode/medium/two_pointers/15_3sum | ⬜ |
 | 16 | 3sum Closest | Medium | Two Pointers | leetcode/medium/two_pointers/16_3sum_closest | ⬜ |
 | 17 | Letter Combinations Of A Phone Number | Medium | Backtracking | leetcode/medium/backtracking/17_letter_combinations_of_a_phone_number | ⬜ |
 | 18 | 4sum | Medium | Two Pointers | leetcode/medium/two_pointers/18_4sum | ⬜ |
 | 19 | Remove Nth Node From End Of List | Medium | Linked List | leetcode/medium/linked_list/19_remove_nth_node_from_end_of_list | ⬜ |
-| 20 | Valid Parentheses | Easy | Stack | leetcode/easy/stack/20_valid_parentheses | ⬜ |
-| 21 | Merge Two Sorted Lists | Easy | Linked List | leetcode/easy/linked_list/21_merge_two_sorted_lists | ⬜ |
+| 20 | Valid Parentheses | Easy | Stack | leetcode/easy/stack/20_valid_parentheses | ✅ |
+| 21 | Merge Two Sorted Lists | Easy | Linked List | leetcode/easy/linked_list/21_merge_two_sorted_lists | ✅ |
 | 22 | Generate Parentheses | Medium | Backtracking | leetcode/medium/backtracking/22_generate_parentheses | ⬜ |
 | 23 | Merge K Sorted Lists | Hard | Heap | leetcode/hard/heap/23_merge_k_sorted_lists | ⬜ |
 | 24 | Swap Nodes In Pairs | Medium | Linked List | leetcode/medium/linked_list/24_swap_nodes_in_pairs | ⬜ |
 | 25 | Reverse Nodes In K Group | Hard | Linked List | leetcode/hard/linked_list/25_reverse_nodes_in_k_group | ⬜ |
 | 26 | Remove Duplicates From Sorted Array | Easy | Arrays | leetcode/easy/arrays/26_remove_duplicates_from_sorted_array | ⬜ |
 | 27 | Remove Element | Easy | Arrays | leetcode/easy/arrays/27_remove_element | ⬜ |
-| 28 | Find The Index Of The First Occurrence In A String | Easy | Strings | leetcode/easy/strings/28_find_the_index_of_the_first_occurrence_in_a_string | ⬜ |
+| 28 | Find The Index Of The First Occurrence In A String | Easy | Strings | leetcode/easy/strings/28_find_the_index_of_the_first_occurrence_in_a_string | ✅ |
 | 29 | Divide Two Integers | Medium | Bit Manipulation | leetcode/medium/bit_manipulation/29_divide_two_integers | ⬜ |
 | 30 | Substring With Concatenation Of All Words | Hard | Sliding Window | leetcode/hard/sliding_window/30_substring_with_concatenation_of_all_words | ⬜ |
 | 31 | Next Permutation | Medium | Arrays | leetcode/medium/arrays/31_next_permutation | ⬜ |
 | 32 | Longest Valid Parentheses | Hard | Stack | leetcode/hard/stack/32_longest_valid_parentheses | ⬜ |
 | 33 | Search In Rotated Sorted Array | Medium | Binary Search | leetcode/medium/binary_search/33_search_in_rotated_sorted_array | ⬜ |
 | 34 | Find First And Last Position Of Element In Sorted Array | Medium | Binary Search | leetcode/medium/binary_search/34_find_first_and_last_position_of_element_in_sorted_array | ⬜ |
-| 35 | Search Insert Position | Easy | Binary Search | leetcode/easy/binary_search/35_search_insert_position | ⬜ |
+| 35 | Search Insert Position | Easy | Binary Search | leetcode/easy/binary_search/35_search_insert_position | ✅ |
 | 36 | Valid Sudoku | Medium | Matrix | leetcode/medium/matrix/36_valid_sudoku | ⬜ |
 | 37 | Sudoku Solver | Hard | Backtracking | leetcode/hard/backtracking/37_sudoku_solver | ⬜ |
 | 38 | Count And Say | Medium | Strings | leetcode/medium/strings/38_count_and_say | ⬜ |
@@ -101,7 +101,7 @@ This index shows every LeetCode problem folder currently stored in the repositor
 | 52 | N Queens II | Hard | Backtracking | leetcode/hard/backtracking/52_n_queens_ii | ⬜ |
 | 53 | Maximum Subarray | Medium | Arrays | leetcode/medium/arrays/53_maximum_subarray | ⬜ |
 | 54 | Spiral Matrix | Medium | Matrix | leetcode/medium/matrix/54_spiral_matrix | ⬜ |
-| 55 | Jump Game | Medium | Greedy | leetcode/medium/greedy/55_jump_game | ⬜ |
+| 55 | Jump Game | Medium | Greedy | leetcode/medium/greedy/55_jump_game | ✅ |
 | 56 | Merge Intervals | Medium | Intervals | leetcode/medium/intervals/56_merge_intervals | ⬜ |
 | 57 | Insert Interval | Medium | Intervals | leetcode/medium/intervals/57_insert_interval | ⬜ |
 | 58 | Length Of Last Word | Easy | Strings | leetcode/easy/strings/58_length_of_last_word | ⬜ |
@@ -112,7 +112,7 @@ This index shows every LeetCode problem folder currently stored in the repositor
 | 63 | Unique Paths II | Medium | Dynamic Programming | leetcode/medium/dynamic_programming/63_unique_paths_ii | ⬜ |
 | 64 | Minimum Path Sum | Medium | Dynamic Programming | leetcode/medium/dynamic_programming/64_minimum_path_sum | ⬜ |
 | 65 | Valid Number | Hard | Strings | leetcode/hard/strings/65_valid_number | ⬜ |
-| 66 | Plus One | Easy | Arrays | leetcode/easy/arrays/66_plus_one | ⬜ |
+| 66 | Plus One | Easy | Arrays | leetcode/easy/arrays/66_plus_one | ✅ |
 | 67 | Add Binary | Easy | Strings | leetcode/easy/strings/67_add_binary | ⬜ |
 | 68 | Text Justification | Hard | Strings | leetcode/hard/strings/68_text_justification | ⬜ |
 | 69 | Sqrtx | Easy | Binary Search | leetcode/easy/binary_search/69_sqrtx | ⬜ |
@@ -127,7 +127,7 @@ This index shows every LeetCode problem folder currently stored in the repositor
 | 78 | Subsets | Medium | Backtracking | leetcode/medium/backtracking/78_subsets | ⬜ |
 | 79 | Word Search | Medium | Backtracking | leetcode/medium/backtracking/79_word_search | ⬜ |
 | 80 | Remove Duplicates From Sorted Array II | Medium | Arrays | leetcode/medium/arrays/80_remove_duplicates_from_sorted_array_ii | ⬜ |
-| 81 | Search In Rotated Sorted Array II | Medium | Binary Search | leetcode/medium/binary_search/81_search_in_rotated_sorted_array_ii | ⬜ |
+| 81 | Search In Rotated Sorted Array II | Medium | Binary Search | leetcode/medium/binary_search/81_search_in_rotated_sorted_array_ii | ✅ |
 | 82 | Remove Duplicates From Sorted List II | Medium | Linked List | leetcode/medium/linked_list/82_remove_duplicates_from_sorted_list_ii | ⬜ |
 | 83 | Remove Duplicates From Sorted List | Easy | Linked List | leetcode/easy/linked_list/83_remove_duplicates_from_sorted_list | ⬜ |
 | 84 | Largest Rectangle In Histogram | Hard | Monotonic Stack | leetcode/hard/monotonic_stack/84_largest_rectangle_in_histogram | ⬜ |
@@ -140,7 +140,7 @@ This index shows every LeetCode problem folder currently stored in the repositor
 | 91 | Decode Ways | Medium | Dynamic Programming | leetcode/medium/dynamic_programming/91_decode_ways | ⬜ |
 | 92 | Reverse Linked List II | Medium | Linked List | leetcode/medium/linked_list/92_reverse_linked_list_ii | ⬜ |
 | 93 | Restore Ip Addresses | Medium | Backtracking | leetcode/medium/backtracking/93_restore_ip_addresses | ⬜ |
-| 94 | Binary Tree Inorder Traversal | Easy | Binary Tree | leetcode/easy/binary_tree/94_binary_tree_inorder_traversal | ⬜ |
+| 94 | Binary Tree Inorder Traversal | Easy | Binary Tree | leetcode/easy/binary_tree/94_binary_tree_inorder_traversal | ✅ |
 | 95 | Unique Binary Search Trees II | Medium | Binary Search Tree | leetcode/medium/binary_search_tree/95_unique_binary_search_trees_ii | ⬜ |
 | 96 | Unique Binary Search Trees | Medium | Binary Search Tree | leetcode/medium/binary_search_tree/96_unique_binary_search_trees | ⬜ |
 | 97 | Interleaving String | Medium | Dynamic Programming | leetcode/medium/dynamic_programming/97_interleaving_string | ⬜ |
@@ -212,7 +212,7 @@ This index shows every LeetCode problem folder currently stored in the repositor
 | 163 | Missing Ranges | Easy | Intervals | leetcode/easy/intervals/163_missing_ranges | ⬜ |
 | 164 | Maximum Gap | Medium | Arrays | leetcode/medium/arrays/164_maximum_gap | ⬜ |
 | 165 | Compare Version Numbers | Medium | Strings | leetcode/medium/strings/165_compare_version_numbers | ⬜ |
-| 166 | Fraction To Recurring Decimal | Medium | Strings | leetcode/medium/strings/166_fraction_to_recurring_decimal | ⬜ |
+| 166 | Fraction To Recurring Decimal | Medium | Strings | leetcode/medium/strings/166_fraction_to_recurring_decimal | ✅ |
 | 167 | Two Sum II Input Array Is Sorted | Medium | Two Pointers | leetcode/medium/two_pointers/167_two_sum_ii_input_array_is_sorted | ⬜ |
 | 168 | Excel Sheet Column Title | Easy | Strings | leetcode/easy/strings/168_excel_sheet_column_title | ⬜ |
 | 169 | Majority Element | Easy | Arrays | leetcode/easy/arrays/169_majority_element | ⬜ |
@@ -253,7 +253,7 @@ This index shows every LeetCode problem folder currently stored in the repositor
 | 203 | Remove Linked List Elements | Easy | Linked List | leetcode/easy/linked_list/203_remove_linked_list_elements | ⬜ |
 | 204 | Count Primes | Medium | Math | leetcode/medium/math/204_count_primes | ⬜ |
 | 205 | Isomorphic Strings | Easy | Strings | leetcode/easy/strings/205_isomorphic_strings | ⬜ |
-| 206 | Reverse Linked List | Easy | Linked List | leetcode/easy/linked_list/206_reverse_linked_list | ⬜ |
+| 206 | Reverse Linked List | Easy | Linked List | leetcode/easy/linked_list/206_reverse_linked_list | ✅ |
 | 207 | Course Schedule | Medium | Graph | leetcode/medium/graph/207_course_schedule | ⬜ |
 | 208 | Implement Trie Prefix Tree | Medium | Binary Tree | leetcode/medium/binary_tree/208_implement_trie_prefix_tree | ⬜ |
 | 209 | Minimum Size Subarray Sum | Medium | Arrays | leetcode/medium/arrays/209_minimum_size_subarray_sum | ⬜ |
@@ -316,7 +316,7 @@ This index shows every LeetCode problem folder currently stored in the repositor
 | 277 | Find The Celebrity | Medium | Arrays | leetcode/medium/arrays/277_find_the_celebrity | ⬜ |
 | 279 | Perfect Squares | Medium | Arrays | leetcode/medium/arrays/279_perfect_squares | ⬜ |
 | 280 | Wiggle Sort | Medium | Arrays | leetcode/medium/arrays/280_wiggle_sort | ⬜ |
-| 283 | Move Zeroes | Easy | Arrays | leetcode/easy/arrays/283_move_zeroes | ⬜ |
+| 283 | Move Zeroes | Easy | Arrays | leetcode/easy/arrays/283_move_zeroes | ✅ |
 | 285 | Inorder Successor In BST | Medium | Binary Search Tree | leetcode/medium/binary_search_tree/285_inorder_successor_in_bst | ⬜ |
 | 286 | Walls And Gates | Medium | Matrix | leetcode/medium/matrix/286_walls_and_gates | ⬜ |
 | 287 | Find The Duplicate Number | Medium | Arrays | leetcode/medium/arrays/287_find_the_duplicate_number | ⬜ |
