@@ -3,7 +3,7 @@
 A long-term coding practice repository for keeping each problem in a self-contained folder with a short guide, starter code, and starter tests.
 
 ## Current repository snapshot
-- Total problem folders currently stored: **107** (all currently under `leetcode/`)
+- Total problem folders currently stored: **368** (all currently under `leetcode/`)
 - Platforms present in the repository tree: **9**
 - Build / IDE output folders (for example `out/`) are ignored and should not be committed
 
@@ -14,17 +14,17 @@ A long-term coding practice repository for keeping each problem in a self-contai
 - **Stored** = number of problem folders currently present for that platform
 - **Solved** = number of problems you have marked as solved (✅) in that platform index README
 
-| Platform | Stored problem folders | Solved | Stored problem folders live under |
-| --- | ---: | ---: | --- |
-| atcoder | 0 | 0 | `atcoder/` |
-| codechef | 0 | 0 | `codechef/` |
-| codeforces | 0 | 0 | `codeforces/` |
-| cses | 0 | 0 | `cses/` |
-| geeksforgeeks | 0 | 0 | `geeksforgeeks/` |
-| hackerrank | 0 | 0 | `hackerrank/` |
-| interviewbit | 0 | 0 | `interviewbit/` |
-| leetcode | 107 | 2 | `leetcode/` |
-| spoj | 0 | 0 | `spoj/` |
+| Platform | Stored problem folders | Solved | Solved Tracker | Stored problem folders live under |
+| --- | ---: | ---: | --- | --- |
+| atcoder | 0 | 0 | ⬜ | `atcoder/` |
+| codechef | 0 | 0 | ⬜ | `codechef/` |
+| codeforces | 0 | 0 | ⬜ | `codeforces/` |
+| cses | 0 | 0 | ⬜ | `cses/` |
+| geeksforgeeks | 0 | 0 | ⬜ | `geeksforgeeks/` |
+| hackerrank | 0 | 0 | ⬜ | `hackerrank/` |
+| interviewbit | 0 | 0 | ⬜ | `interviewbit/` |
+| leetcode | 368 | 3 | ✅ | leetcode/ |
+| spoj | 0 | 0 | ⬜ | `spoj/` |
 
 ## Active structure in this repository
 Every platform currently uses the same top-level difficulty buckets that already exist in the tree:
