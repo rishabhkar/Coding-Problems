@@ -1,11 +1,11 @@
-# LeetCode Problem Index
+﻿# LeetCode Problem Index
 
 This index shows every LeetCode problem folder currently stored in the repository and points to its exact location.
 
 ## Snapshot
 - Total LeetCode problem folders: **368**
-- Solved problems: **3**
-- Unsolved problems: **365**
+- Solved problems: **25**
+- Unsolved problems: **343**
 
 ## Difficulty breakdown
 
@@ -53,7 +53,7 @@ This index shows every LeetCode problem folder currently stored in the repositor
 | 4 | Median Of Two Sorted Arrays | Hard | Binary Search | leetcode/hard/binary_search/4_median_of_two_sorted_arrays | ⬜ |
 | 5 | Longest Palindromic Substring | Medium | Strings | leetcode/medium/strings/5_longest_palindromic_substring | ⬜ |
 | 6 | Zigzag Conversion | Medium | Simulation | leetcode/medium/simulation/6_zigzag_conversion | ⬜ |
-| 7 | Reverse Integer | Medium | Math | leetcode/medium/math/7_reverse_integer | ✅ |
+| 7 | Reverse Integer | Medium | Math | leetcode/medium/math/7_reverse_integer | ⬜ |
 | 8 | String To Integer Atoi | Medium | Strings | leetcode/medium/strings/8_string_to_integer_atoi | ⬜ |
 | 9 | Palindrome Number | Easy | Math | leetcode/easy/math/9_palindrome_number | ⬜ |
 | 10 | Regular Expression Matching | Hard | Dynamic Programming | leetcode/hard/dynamic_programming/10_regular_expression_matching | ⬜ |
@@ -259,9 +259,9 @@ This index shows every LeetCode problem folder currently stored in the repositor
 | 209 | Minimum Size Subarray Sum | Medium | Arrays | leetcode/medium/arrays/209_minimum_size_subarray_sum | ⬜ |
 | 210 | Course Schedule II | Medium | Graph | leetcode/medium/graph/210_course_schedule_ii | ⬜ |
 | 217 | Contains Duplicate | Easy | Arrays | leetcode/easy/arrays/217_contains_duplicate | ⬜ |
-| 217 | Contains Duplicate | Easy | Hash Map | leetcode/easy/hash_map/217_contains_duplicate | ✅ |
+| 217 | Contains Duplicate | Easy | Hash Map | leetcode/easy/hash_map/217_contains_duplicate | ⬜ |
 | 218 | The Skyline Problem | Hard | Arrays | leetcode/hard/arrays/218_the_skyline_problem | ⬜ |
-| 219 | Contains Duplicate II | Easy | Hash Map | leetcode/easy/hash_map/219_contains_duplicate_ii | ✅ |
+| 219 | Contains Duplicate II | Easy | Hash Map | leetcode/easy/hash_map/219_contains_duplicate_ii | ⬜ |
 | 220 | Contains Duplicate III | Hard | Hash Map | leetcode/hard/hash_map/220_contains_duplicate_iii | ⬜ |
 | 224 | Basic Calculator | Hard | Stack | leetcode/hard/stack/224_basic_calculator | ⬜ |
 | 225 | Implement Stack Using Queues | Easy | Arrays | leetcode/easy/arrays/225_implement_stack_using_queues | ⬜ |
@@ -417,5 +417,5 @@ This index shows every LeetCode problem folder currently stored in the repositor
 | 1920 | Build Array From Permutation | Easy | Arrays | leetcode/easy/arrays/1920_build_array_from_permutation | ⬜ |
 
 ## How to use this index
-- Use the **Solved** column to track progress (✅ = solved, ⬜ = not solved yet).
+- Use the **Solved** column to track progress (âœ… = solved, â¬œ = not solved yet).
 - Open the folder path directly to find the README.md, starter Java file, and starter test file for that problem.
