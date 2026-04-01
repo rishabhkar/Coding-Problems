@@ -129,12 +129,12 @@ This index shows every LeetCode problem folder currently stored in the repositor
 | 80 | Remove Duplicates From Sorted Array II | Medium | Arrays | leetcode/medium/arrays/_80_remove_duplicates_from_sorted_array_ii | ⬜ |
 | 81 | Search In Rotated Sorted Array II | Medium | Binary Search | leetcode/medium/binary_search/_81_search_in_rotated_sorted_array_ii | ✅ |
 | 82 | Remove Duplicates From Sorted List II | Medium | Linked List | leetcode/medium/linked_list/_82_remove_duplicates_from_sorted_list_ii | ⬜ |
-| 83 | Remove Duplicates From Sorted List | Easy | Linked List | leetcode/easy/linked_list/_83_remove_duplicates_from_sorted_list | ⬜ |
+| 83 | Remove Duplicates From Sorted List | Easy | Linked List | leetcode/easy/linked_list/_83_remove_duplicates_from_sorted_list | ✅ |
 | 84 | Largest Rectangle In Histogram | Hard | Monotonic Stack | leetcode/hard/monotonic_stack/_84_largest_rectangle_in_histogram | ⬜ |
 | 85 | Maximal Rectangle | Hard | Monotonic Stack | leetcode/hard/monotonic_stack/_85_maximal_rectangle | ⬜ |
 | 86 | Partition List | Medium | Linked List | leetcode/medium/linked_list/_86_partition_list | ⬜ |
 | 87 | Scramble String | Hard | Dynamic Programming | leetcode/hard/dynamic_programming/_87_scramble_string | ⬜ |
-| 88 | Merge Sorted Array | Easy | Arrays | leetcode/easy/arrays/_88_merge_sorted_array | ⬜ |
+| 88 | Merge Sorted Array | Easy | Arrays | leetcode/easy/arrays/_88_merge_sorted_array | ✅ |
 | 89 | Gray Code | Medium | Bit Manipulation | leetcode/medium/bit_manipulation/_89_gray_code | ⬜ |
 | 90 | Subsets II | Medium | Backtracking | leetcode/medium/backtracking/_90_subsets_ii | ⬜ |
 | 91 | Decode Ways | Medium | Dynamic Programming | leetcode/medium/dynamic_programming/_91_decode_ways | ⬜ |
