@@ -146,7 +146,7 @@ This index shows every LeetCode problem folder currently stored in the repositor
 | 97 | Interleaving String | Medium | Dynamic Programming | leetcode/medium/dynamic_programming/_97_interleaving_string | ⬜ |
 | 98 | Validate Binary Search Tree | Medium | Binary Search Tree | leetcode/medium/binary_search_tree/_98_validate_binary_search_tree | ⬜ |
 | 99 | Recover Binary Search Tree | Hard | Binary Search Tree | leetcode/hard/binary_search_tree/_99_recover_binary_search_tree | ⬜ |
-| 100 | Same Tree | Easy | Binary Tree | leetcode/easy/binary_tree/_100_same_tree | ⬜ |
+| 100 | Same Tree | Easy | Binary Tree | leetcode/easy/binary_tree/_100_same_tree | ✅ |
 | 101 | Symmetric Tree | Easy | Binary Tree | leetcode/easy/binary_tree/_101_symmetric_tree | ⬜ |
 | 102 | Binary Tree Level Order Traversal | Medium | Binary Tree | leetcode/medium/binary_tree/_102_binary_tree_level_order_traversal | ⬜ |
 | 103 | Binary Tree Zigzag Level Order Traversal | Medium | Binary Tree | leetcode/medium/binary_tree/_103_binary_tree_zigzag_level_order_traversal | ⬜ |
@@ -187,7 +187,7 @@ This index shows every LeetCode problem folder currently stored in the repositor
 | 138 | Copy List With Random Pointer | Medium | Linked List | leetcode/medium/linked_list/_138_copy_list_with_random_pointer | ⬜ |
 | 139 | Word Break | Medium | Dynamic Programming | leetcode/medium/dynamic_programming/_139_word_break | ⬜ |
 | 140 | Word Break II | Hard | Dynamic Programming | leetcode/hard/dynamic_programming/_140_word_break_ii | ⬜ |
-| 141 | Linked List Cycle | Easy | Linked List | leetcode/easy/linked_list/_141_linked_list_cycle | ⬜ |
+| 141 | Linked List Cycle | Easy | Linked List | leetcode/easy/linked_list/_141_linked_list_cycle | ✅ |
 | 142 | Linked List Cycle II | Medium | Linked List | leetcode/medium/linked_list/_142_linked_list_cycle_ii | ⬜ |
 | 143 | Reorder List | Medium | Linked List | leetcode/medium/linked_list/_143_reorder_list | ⬜ |
 | 144 | Binary Tree Preorder Traversal | Easy | Binary Tree | leetcode/easy/binary_tree/_144_binary_tree_preorder_traversal | ⬜ |
